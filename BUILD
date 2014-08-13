@@ -121,6 +121,7 @@ cc_library(
   ],
   deps = [
     '#pthread',
+    '#rt',
     '//snappy:snappy',
     '//thirdparty/gflags:gflags',
     '//zlib:zlib',
